@@ -79,10 +79,13 @@ h1 {
   font-size: 0.8125rem;
   line-height: 0.8125rem;
   justify-content: space-between;
+  margin-right: 5px;
 }
 
 .faqQuestion::after {
-  content: url("images/icon-arrow-down.svg");
+  color: #f47b56;
+  content: url("../images/icon-arrow-down.svg");
+  font-size: 2rem;
   transition: all 0.3s ease-out;
 }
 
@@ -103,7 +106,7 @@ h1 {
 hr {
   border: 0;
   border-top: 1px solid #e8e8ea;
-  margin-bottom: 0.75rem;
+  margin: 0 5% 0.75rem 5%;
 }
 
 .attribution {
