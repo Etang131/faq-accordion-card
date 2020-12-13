@@ -94,9 +94,22 @@ h1 {
   transition: all 0.3s ease-out;
 }
 
+/*Active state to test*/
+.faqQuestion::after.active {
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+
 .faqQuestion:hover {
   color: #f47b56;
   cursor: pointer;
+}
+
+/*Active state to test*/
+.faqQuestion.active {
+  font-weight: 700;
 }
 
 .faqAnswer {
@@ -108,10 +121,21 @@ h1 {
   overflow: hidden;
 }
 
+/*Active state to test*/
+.faqAnswer.active {
+  height: 100px;
+  margin-top: 10px;
+}
+
 hr {
   border: 0;
   border-top: 1px solid #e8e8ea;
   margin: 0 5% 0.75rem 5%;
+}
+
+/*Active state to test*/
+hr.active {
+  margin-top: 45px;
 }
 
 .attribution {
