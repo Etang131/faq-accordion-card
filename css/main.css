@@ -94,8 +94,16 @@ h1 {
   transition: all 0.3s ease-out;
 }
 
-/*Active state to test*/
+/*Active state to test / This is the wrong way to do it. Keeping for reference*/
 .faqQuestion::after.active {
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+
+/*possible work around for Javascript*/
+.faqQuestion.active::after {
   -webkit-transform: rotate(180deg);
   -moz-transform: rotate(180deg);
   -o-transform: rotate(180deg);
