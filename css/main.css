@@ -143,7 +143,7 @@ hr {
 
 /*Active state to test*/
 hr.active {
-  margin-top: 45px;
+  margin-top: 40px;
 }
 
 .attribution {
@@ -187,5 +187,9 @@ hr.active {
   .contentBox {
     margin-left: 5%;
     width: 40%;
+  }
+
+  .attribution {
+    margin-top: 3vh;
   }
 }
